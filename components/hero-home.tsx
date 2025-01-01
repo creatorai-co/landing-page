@@ -9,24 +9,26 @@ export default function HeroHome() {
         <div className="py-12 md:py-">
           {/* Moving Banner */}
           <div className="relative overflow-hidden rounded-lg bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 py-4 px-6 shadow-lg">
-            <div className="relative flex items-center justify-between w-full">
-              <div className="flex overflow-hidden w-full">
-                <div className="animate-marquee whitespace-nowrap">
-                  <span className="text-white text-base md:text-lg font-medium inline-block w-[500px]">
-                    🌟 Join our exclusive invite-only community! 🌟 Unlock
-                    premium access, creator perks, personalized support, and
-                    much more. Spots are limited, secure your invite now! 💎
-                  </span>
-                </div>
-              </div>
-              <a
-                href="#join"
-                className="btn shrink-0 rounded-md bg-white px-4 py-2 ml-4 text-sm md:text-base font-semibold text-indigo-700 hover:bg-indigo-100"
-              >
-                Join Community
-              </a>
-            </div>
+      <div className="relative flex items-center w-full">
+        <div className="flex-1 overflow-hidden">
+          <div className="animate-marquee inline-flex whitespace-nowrap">
+            <span className="text-white text-base md:text-lg font-medium">
+              🌟 Join our exclusive invite-only community! 🌟 Unlock premium access,
+              creator perks, personalized support, and much more. Spots are
+              limited, secure your invite now! 💎
+            </span>
+            <span className="text-white text-base md:text-lg font-medium ml-12">
+              🌟 Join our exclusive invite-only community! 🌟 Unlock premium access,
+              creator perks, personalized support, and much more. Spots are
+              limited, secure your invite now! 💎
+            </span>
           </div>
+        </div>
+        <a href="#join" className="shrink-0 rounded-md bg-white px-4 py-2 ml-4 text-sm md:text-base font-semibold text-indigo-700 hover:bg-indigo-100">
+          Join Now
+        </a>
+      </div>
+    </div>
 
           {/* Section header */}
           <div className="py-12 text-center md:pb-20">
@@ -46,8 +48,8 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Expand your brand's reach by understanding audience sentiment, engagement, and niche interests. Collaborate with creators to craft impactful campaigns that align with how consumers shop today.
-
+                Discover creators to craft campaigns tailored to Gen Z and Millennial shopping habits, driving maximum conversions.
+                Expand your brand's reach with access to your niche audience through our intelligent creator-matching engine.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
@@ -66,7 +68,7 @@ export default function HeroHome() {
                 <div data-aos="fade-up" data-aos-delay={600}>
                   <a
                     className="btn relative w-full bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="https://forms.gle/zoBmSRGZXYQj54S5A"
                   >
                     Join Community
                   </a>

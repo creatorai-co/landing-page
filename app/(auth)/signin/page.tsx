@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Sign In - Open PRO",
-  description: "Page description",
+  title: "CreatorAI",
+  description: "Discover CreatorAI, India's leading influencer marketing platform to find creators, manage campaigns, and track performance effortlessly",
 };
 
 import Link from "next/link";
