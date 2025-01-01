@@ -24,7 +24,7 @@ export default function HeroHome() {
             </span>
           </div>
         </div>
-        <a href="#join" className="shrink-0 rounded-md bg-white px-4 py-2 ml-4 text-sm md:text-base font-semibold text-indigo-700 hover:bg-indigo-100">
+        <a href="https://forms.gle/zoBmSRGZXYQj54S5A" className="shrink-0 rounded-md bg-white px-4 py-2 ml-4 text-sm md:text-base font-semibold text-indigo-700 hover:bg-indigo-100">
           Join Now
         </a>
       </div>
@@ -48,8 +48,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Discover creators to craft campaigns tailored to Gen Z and Millennial shopping habits, driving maximum conversions.
-                Expand your brand's reach with access to your niche audience through our intelligent creator-matching engine.
+Discover creators with our intelligent matching engine to craft campaigns tailored to Gen Z and Millennial shopping habits, driving maximum conversions and expanding your brand's reach to niche audiences
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
