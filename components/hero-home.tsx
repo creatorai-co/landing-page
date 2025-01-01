@@ -48,7 +48,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-Discover creators with our intelligent matching engine to craft campaigns tailored to Gen Z and Millennial shopping habits, driving maximum conversions and expanding your brand's reach to niche audiences
+Discover creators with our intelligent matching engine to craft campaigns tailored to Gen Z and Millennial shopping habits, driving maximum conversions and expanding your brand's reach to niche audiences.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
